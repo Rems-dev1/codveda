@@ -23,7 +23,7 @@ window.onload = function () {
   function createNewTaskElement(taskText, isDone) {
     var listItem = document.createElement("li");
 
-    // here I should be checking the stus
+    // here I should be checking the status
     if (isDone === true || isDone === "true") {
       listItem.setAttribute("data-done", "true");
     } else {
